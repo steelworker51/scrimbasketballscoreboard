@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;  /* This evenly spaces the children horizontally */
+    align-items: center;  /* Vertically centers the content */
+    background-color: #1B244A;
+    width: 600px;
+    height: 400px;
+    color: white;
+}
+
+.container > div {
+    text-align: center;
+    flex: 1;  /* This ensures each div takes equal space in the container */
+}
+
+#home {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom:10px;
+}
+
+#guest {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom:10px;
+}
+
+
+#home-score {
+    width: 200px;  /* Increased width (optional, you can adjust as needed) */
+    height: 150px;  /* Increased height (optional, you can adjust as needed) */
+    background-color: black;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 100px;  /* Increased font size */
+    color: red;  /* Set text color to red */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#guest-score {
+    width: 200px;  /* Increased width */
+    height: 150px;  /* Increased height */
+    background-color: black;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-size: 100px;  /* Increased font size for better visibility */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;  /* Ensure the text is visible */
+}
+
+
+button {
+    margin: 1px;  /* Reduced the margin from 10px to 5px */
+    padding: 15px 20px;  /* Increased padding for larger buttons */
+    background-color: #1B244A;
+    color: white;
+    cursor: pointer;
+    font-size: px;
+    border: 1px solid white;
+    border-radius: 3px; 
+}
+
+button:hover {
+    background-color: #5A6CB0;
+}
